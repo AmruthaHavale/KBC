@@ -1,15 +1,15 @@
 #THIS IS KBC USING IF STATEMENTS
-print("HELLO, WELCOME TO KAUN BANEGA KARODPATI")
+print("---HELLO, WELCOME TO KAUN BANEGA KARODPATI---")
 
 #question 1
-print("\nOKAY, LET'S START THE GAME  (ANSWER ONLY THE OPTIONS)")
+print("\nOKAY, LET'S START THE GAME  (Type only the options a or b or c or d)")
 print("\nYOUR FIRST QUESTION FOR 1,000 RUPEES \n1)WHICH PLANET IS CALLED THE RED PLANET? \nYOUR OPTIONS ARE")
 print("a) EARTH \n b) MARS \n c) JUPITER \n d) SATURN")
 b = input("ANSWER: ")
 if(b == "b"):
-    print("\nCORRECT ANSWER.......!!!!!!!! \n\n YOU WON 1,000 RUPEES.....!!!!!!! ")
+    print("\nCORRECT ANSWER..!! \n\n YOU WON 1,000 RUPEES..!! ")
 else:
-    print("\nYOU FAILED....... \nYOU LOOSE ALL OF YOUR AMOUNT \nBETTER LUCK NEXT TIME......")
+    print("\nYOU FAILED..\nYOU LOOSE ALL OF YOUR AMOUNT \nBETTER LUCK NEXT TIME..")
     exit()
 
 #question 2
@@ -19,19 +19,19 @@ print("YOUR OPTIONS ARE")
 print("a) RABINDRANATH TAGORE \nb) MAHATMA GANDHI \nc) B.R.AMBEDKAR \nd) SUBHASH CHANDRA BOSE")
 a = input("ANSWER: ")
 if (a == "a"):
-    print("\nCORRECT ANSWER.... \nYOU WON 2,000 RUPEES.....")
+    print("\nCORRECT ANSWER.. \nYOU WON 2,000 RUPEES..!!")
 else:
-    print("\nOOPS YOU LOOSE...\nYOU LOOSE ALL YOUR MONEY")
+    print("\nOOPS YOU LOOSE..\nYOU LOOSE ALL YOUR MONEY")
     exit()
 
 #question 3
 print("YOUR THIRD QUESTION FOR RUPEES 3,000 ")
-print("\nWhat is the capital of Australia?")
+print("\nWHAT IS THE CAPITAL OF AUSTRALIA?")
 print("YOUR OPTIONS ARE....")
 print("a)syndney \nb)canberra \nc)ottawa \nd)wellington")
 c = input("ANSWER: ")
 if (c == "b"):
-    print("\nCORRECT ANSWER.... \nYOU WON 3,000 RUPEES ")
+    print("\nCORRECT ANSWER.. \nYOU WON 3,000 RUPEES ")
 else:
     print("\nOOPS WRONG ANSWER \nYOU LOOSE ALL YOU MONEY")
     exit()
@@ -191,4 +191,5 @@ if(p == "c"):
 else:
     print("\nwrong answer..\nyou loose\nyour net amount is 3,20,000")
     exit()
+
 
